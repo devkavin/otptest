@@ -1,4 +1,4 @@
-This is a simple tutorial on how to send a Verification mail with phpMyAdmin using PHPMailer.
+<!-- This is a simple tutorial on how to send a Verification mail with phpMyAdmin using PHPMailer.
 
 
 We will:
@@ -29,7 +29,7 @@ define('SMTP_Password', 'yourSMTPpassword');
 >>>>> Import Composer.
 
 > Type "composer require phpmailer/phpmailer" in the terminal and hit enter.
-> Set the autoloader path to the location of the generated autoload.php in send.php, you can find this file in "*projectpath*/vendor/". 
+> Set the autoloader path to the location of the generated autoload.php in send.php, you can find this file in "*projectpath*/vendor/".  -->
 
 
 
@@ -39,18 +39,18 @@ define('SMTP_Password', 'yourSMTPpassword');
 
 # Send OTP through SMTP Using PHPMailer
 
-## Description
+### Description
 
 This is a simple tutorial on how to send a Verification mail with phpMyAdmin using PHPMailer.
 
-## Getting Started
+# Getting Started
 
-### Dependencies
+## Dependencies
 
 * [Composer](https://getcomposer.org/download/)
 * XAMPP (Preconfigured to open localhost files)
 
-### Setting up Composer
+## Setting up Composer
 
 * Download the [Composer](https://getcomposer.org/download/) Setup.
 * Run the default setup and make sure to enter the correct path to your php.exe file in the "/xampp/php" folder from directory you've installed xampp to.
@@ -60,17 +60,32 @@ This is a simple tutorial on how to send a Verification mail with phpMyAdmin usi
 composer --version
 ```
 <div>
-<img src="\images\readme\cmp1.png" width="auto" height="auto">
+<img src=".\images\readme\cmp1.png" width="auto" height="auto">
 </div>
 
-* If you're not getting the composer verion on your terminal, restart your machine.
+* If you're not getting the composer version on your terminal, restart your machine.
 
 ### Setting up SMPT in XAMPP
 
-* Go to "your directory\xampp\php\" and open the php.ini file.
+1. First, locate your XAMPP's <b>php.ini</b> file and open it with a text editor such as notepad++, sublime text or VSCode. 
+2. In your text editor find the mail configuration by searching it using "[mail function]". Then, follow the configuration shown in the image below.
+
+<div>
+<img src=".\images\readme\phpini1.png" width="auto" height="auto">
+</div>
+
+* Note that <b>"sendmail_from = "</b> should have the email address that you want to send the OTP from.
+
+3. Next we'll edit the XAMPP's <b>sendmail</b> configuration. Locate and open the sendmail.ini file in your text editor. Then, follow the configuration shown in the image below.
+
+<div>
+<img src=".\images\readme\sendmailini1.png" width="auto" height="auto">
+</div>
+
+* <b>Note:</b> Use your gmail credential of the account you want use to send mail.
 
 
-### Executing program
+# Executing program
 
 * How to run the program
 * Step-by-step bullets
