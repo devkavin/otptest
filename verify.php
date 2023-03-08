@@ -6,7 +6,12 @@
 
 <?php
 session_start();
-include 'controller.php';
+// If the user is verified, redirect to the dashboard
+// if (isset($_SESSION['verified'])) {
+//     if ($_SESSION['verified'] == true) {
+//         header('location: dashboard.php?verified_user');
+//     }
+// }
 ?>
 
 
@@ -30,7 +35,9 @@ include 'controller.php';
             }
             ?>
             <input type="text" name="otp" value="" placeholder="Enter OTP"><br>
+            <div class="button-wrap">
             <button type="submit" name="button">Verify</button>
+            </div>
         </form>
         </div>
     </body>

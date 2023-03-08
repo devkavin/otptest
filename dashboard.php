@@ -5,11 +5,8 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <?php
-include 'controller.php';
 
 // get the username from the session
-
-
 session_start();
 if (!isset($_SESSION['verified'])) {
     header('location: index.php');

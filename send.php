@@ -25,6 +25,15 @@ if (isset($_POST['info'])) {
     $info = $_POST['info'];
 }
 
+//Server settings
+$mail->isSMTP();                                            //Send using SMTP
+$mail->Host       = 'smtp.gmail.com';                       //Set the SMTP server to send through
+$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+$mail->Username   = $SMTP_user;                             //SMTP username
+$mail->Password   = $SMTP_pass;                             //SMTP password
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+$mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+$mail->setFrom($SMTP_user);                                 //Set the sender
 
 
 // Send name, Email and OTP to the database
@@ -38,25 +47,13 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
     $result = mysqli_query($conn, $sql);
     if ($result) {
         try {
-            //Server settings
-            $mail->isSMTP();                                            //Send using SMTP
-            $mail->Host       = 'smtp.gmail.com';                       //Set the SMTP server to send through
-            $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = $SMTP_user;                             //SMTP username
-            $mail->Password   = $SMTP_pass;                             //SMTP password
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-            $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-
             //Recipients
-            $mail->setFrom('kub7.otp@gmail.com');                       //Set the sender
             $mail->addAddress($_POST['email']);                         //Add a recipient
-
 
             //Content
             $mail->isHTML(true);                                        //Set email format to HTML
             $mail->Subject = "This is your verification code";
             $mail->Body    = "Hey " . $_POST['name'] . ", your OTP is " . $_SESSION['otp'] . ". " . $_POST['info'] . ".";
-
 
             $mail->send();
             header('location: verify.php');
@@ -89,7 +86,6 @@ if (isset($_POST['otp'])) {
                 header('location: dashboard.php');
             } else {
                 echo "Error";
-
             }
         } else {
             // Alert the user that the OTP is wrong
@@ -100,11 +96,11 @@ if (isset($_POST['otp'])) {
     }
 }
 
+
 // user click on logout button
 if (isset($_POST['logout'])) {
     session_start();
     session_destroy();
     header('location: index.php');
 }
-
 ?>

@@ -16,7 +16,7 @@
             <input type="text" name="info" value="" placeholder="Test Info"><br>
             <input type="text" name="name" value="" placeholder="Enter your name"><br>
             <input type="text" name="email" value="" placeholder="Enter your email">
-            <button type="submit" name="button">Send</button>
+            <button type="submit" name="send_button">Send</button>
             </div>
 </form>
     </body>

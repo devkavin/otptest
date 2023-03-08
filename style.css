@@ -79,6 +79,13 @@ body {
     margin: 0 auto;
 }
 
+.verify-wrap .button-wrap {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
 .dashboard-wrap {
     width: 100%;
     max-width: 600px;

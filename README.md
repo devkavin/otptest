@@ -160,16 +160,20 @@ define('SMTP_Password', 'yourSMTPpassword');
 
 ## Lets send the OTP
 
-  1. On a browser of your choice, navigate to [http://localhost/otptest/index.php](http://localhost/otptest/index.php)
+1. Run XAMPP and start the Apache and MySQL servers.
 
-  2. Enter any text into the <b>Test Info</b> box. (Additional Text button to keep track of the test mail)
+2. On a browser of your choice, navigate to [http://localhost/otptest/index.php](http://localhost/otptest/index.php)
 
-  3. Fill in your name and Email then click send. You should receive an email with the OTP code.
+3. Enter any text into the <b>Test Info</b> box. (Additional Text button to keep track of the test mail)
+
+4. Fill in your name and Email then click send. You should receive an email with the OTP code.
+
 
 <div>
 <img src=".\images\readme\indexpage1.png" width="auto" height="auto" style="border: 1px solid; border-radius: 10px;">
 </div>
 
+* This sample code auto generates the OTP and stores it in the database.
 
 # Help
 
