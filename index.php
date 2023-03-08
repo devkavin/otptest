@@ -17,6 +17,7 @@
             <input type="text" name="name" value="" placeholder="Enter your name"><br>
             <input type="text" name="email" value="" placeholder="Enter your email">
             <button type="submit" name="button">Send</button>
+            <button type="reset" name="button">Clear</button>
             </div>
 </form>
     </body>
