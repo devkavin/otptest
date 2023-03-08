@@ -36,6 +36,7 @@ define('SMTP_Password', 'yourSMTPpassword');
 
 
 
+
 <!-- Improved compatibility of back to top link: See: othneildrew/Best-README-Template#73 -->
 <a name="readme-top"></a>
 <!--
