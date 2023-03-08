@@ -14,6 +14,7 @@ Requirements:
 
 > Composer installed
 > Xampp preconfigured
+> php.ini and sendmail.ini configured for SMTP, using port 465.
 
 
 *IMPORTANT*
@@ -25,12 +26,8 @@ define('SMTP_Username', 'yourSMTPemail@domain.com');
 define('SMTP_Password', 'yourSMTPpassword');
 ?>
 
->>>>> Don't forget to import Composer.
+>>>>> Import Composer.
 
-> Type composer require phpmailer/phpmailer in the terminal and hit enter.
-> Set the autoloader path to the location of the generated autoload.php in send.php, you can find this file in *projectpath*/vendor/. 
+> Type "composer require phpmailer/phpmailer" in the terminal and hit enter.
+> Set the autoloader path to the location of the generated autoload.php in send.php, you can find this file in "*projectpath*/vendor/". 
 
-
-I am assuming you have already configured your php.ini and sendmail.ini files to send mail through SMTP.
-
->>>>> The SMTP port we've used is port 465.
