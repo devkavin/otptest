@@ -59,8 +59,9 @@ This is a simple tutorial on how to send a Verification mail with phpMyAdmin usi
 ```
 composer --version
 ```
-
-<img src="images/logo.png" alt="Logo" width="auto" height="auto">
+<div>
+<img src="images/logo.png" width="auto" height="auto">
+</div>
 
 * If you're not getting the composer verion on your terminal, restart your machine.
 
