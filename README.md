@@ -127,7 +127,7 @@ git clone https://github.com/{your-username}/otptest.git
 ```
 composer require phpmailer/phpmailer
 ```
-   2. Copy the path to the <autoload.php> file in the generated "\vendor" folder.
+   2. Copy the path to the <autoload.php> file in the generated "/vendor" folder.
    
    3. Navigate to send.php and paste the path as shown in the image below.
 
@@ -138,7 +138,7 @@ composer require phpmailer/phpmailer
 * Your Path should look like its on the image below:
 
 <div>
-<img src=".\images\readme\autoloadimport2.png" width="auto" height="auto" style="border: 1px solid green; border-radius: 10px;">
+<img src=".\images\readme\autoloadimport2.png" width="auto" height="auto" style="border: 1px solid; border-radius: 10px;">
 </div>
 
 ## Create Config
@@ -160,8 +160,10 @@ define('SMTP_Password', 'yourSMTPpassword');
 
 ## Lets send the OTP
 
-  1. On a browser of your choice, navigate to [http://localhost/otptest/index.php]
+  1. On a browser of your choice, navigate to [http://localhost/otptest/index.php](http://localhost/otptest/index.php)
+
   2. Enter any text into the <b>Test Info</b> box. (Additional Text button to keep track of the test mail)
+
   3. Fill in your name and Email then click send. You should receive an email with the OTP code.
 
 <div>
