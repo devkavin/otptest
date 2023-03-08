@@ -48,7 +48,7 @@ This is a simple tutorial on how to send a Verification mail with phpMyAdmin usi
 ### Dependencies
 
 * [Composer](https://getcomposer.org/download/)
-* Xampp (Preconfigured to open localhost files)
+* XAMPP (Preconfigured to open localhost files)
 
 ### Setting up Composer
 
@@ -60,6 +60,13 @@ This is a simple tutorial on how to send a Verification mail with phpMyAdmin usi
 composer --version
 ```
 
+<img src="images/logo.png" alt="Logo" width="auto" height="auto">
+
+* If you're not getting the composer verion on your terminal, restart your machine.
+
+### Setting up SMPT in XAMPP
+
+* Go to "your directory\xampp\php\" and open the php.ini file.
 
 
 ### Executing program
