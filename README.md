@@ -33,8 +33,11 @@ define('SMTP_Password', 'yourSMTPpassword');
 
 
 
-
-
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 # Send OTP through SMTP Using PHPMailer
@@ -166,6 +169,8 @@ define('SMTP_Password', 'yourSMTPpassword');
 
 * If you're having trouble setting up your gmail account to send OTP, Refer to the [Help section](#help).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Lets send the OTP code!
 
 1. Run XAMPP and start the Apache and MySQL servers.
@@ -195,39 +200,57 @@ define('SMTP_Password', 'yourSMTPpassword');
 <img src=".\images\readme\dashboard1.png" width="auto" height="auto" style="border: 1px solid; border-radius: 10px;">
 </div>
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Help
+
+## Gmail and SMTP
+
+Google has removed the less secure apps option as of May 30th, 2022, and it is no longer possible to turn it on. To use Google's SMTP server, you have to enable 2-factor authentication and create an app password to use instead of your true password in the code.
+
+Follow these steps to enable 2-factor authentication (<i>2 Step verification</i>) and create an app password:
+
+1. Go to your Google Account settings (https://myaccount.google.com/) and click on <b>"Security"</b> in the left sidebar.
+2. Scroll down to <b>"Signing in to Google"</b> and click on <b>"2-Step Verification."</b>
+3. Follow the prompts to enable 2-step verification for your Google account. This will require you to enter a code from your phone in addition to your password when signing in to Google.
+4. Once 2-step verification is enabled, scroll down to the "App passwords" section and click on <b>"Generate new app password."</b>
+
+<div>
+<img src=".\images\readme\signingin1.png" width="auto" height="auto" style="border: 1px solid; border-radius: 10px;">
+</div>
+
+5. Choose <b>"Mail"</b> as the app and select the device or application that you'll be using to send emails (e.g. <b>"Windows Computer"</b> or <b>"PHPMailer"</b>).
+6. Click on <b>"Generate"</b> to generate a new app password. Copy this password and save it in a secure location.
 
 Any advise for common problems or issues.
 ```
 command to run if program contains helper info
 ```
 
-## Authors
+# Contact
 
-Contributors names and contact info
+devkavin - [@devkavinhq](https://twitter.com/devkavinhq)
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/devkavinhq.svg?style=social&label=Follow%20%40devkavinhq)](https://twitter.com/devkavinhq)
 
-## Version History
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
+# Version History
+
 * 0.1
     * Initial Release
 
-## License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+<!-- MARKDOWN Links -->
+[contributors-shield]: https://img.shields.io/github/contributors/devkavin/otptest.svg?style=for-the-badge
+[contributors-url]: https://github.com/devkavin/otptest/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/devkavin/otptest.svg?style=for-the-badge
+[forks-url]: https://github.com/devkavin/otptest/network/members
+[stars-shield]: https://img.shields.io/github/stars/devkavin/otptest.svg?style=for-the-badge
+[stars-url]: https://github.com/devkavin/otptest/stargazers
+[issues-shield]: https://img.shields.io/github/issues/devkavin/otptest.svg?style=for-the-badge
+[issues-url]: https://github.com/devkavin/otptest/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/kavindra-senanayake
