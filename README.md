@@ -238,7 +238,7 @@ devkavin - [@devkavinhq](https://twitter.com/devkavinhq)
 
 <!-- [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/devkavinhq.svg?style=social&label=Follow%20%40devkavinhq)](https://twitter.com/devkavinhq) -->
 
-![Twitter Follow](https://img.shields.io/twitter/follow/devkavinhq?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/devkavinhq?style=social)](https://twitter.com/devkavinhq)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
