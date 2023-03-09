@@ -258,8 +258,6 @@ composer --version
 
 # Contact
 
-
-
 <div align="center" style="font-size: 20px;">
 
 Find me on:
