@@ -9,7 +9,13 @@
 
 </div>
 
+<br>
+
+<div align="center">
+
 # Send OTP through SMTP Using PHPMailer
+
+</div>
 
 ## Description
 
