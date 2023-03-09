@@ -15,7 +15,7 @@
 
 This is a simple tutorial on how to send a Verification mail with phpMyAdmin using PHPMailer through gmail.
 
-If you haven't setup your gmail account to send OTP mail. refer to the [Help section](#help)
+If you haven't setup your gmail account to send SMTP mail. refer to the [Help section](#help)
 
 # Getting Started
 
