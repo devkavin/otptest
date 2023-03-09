@@ -264,7 +264,7 @@ Find me on:
 <br>
 
 [![Twitter][twitter-shield]](Twitter-url)
-[![Hashnode][Hashnode-shield]](hashnode-url)
+[![Hashnode][Hashnode-shield]](Hashnode-url)
 [![LinkedIn][linkedin-shield]](linkedin-url)
 
 </div>
@@ -293,4 +293,4 @@ Find me on:
 [twitter-shield]: https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white
 [twitter-url]: https://twitter.com/devkavinhq
 [Hashnode-shield]: https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode 
-[hashnode-url]: https://hashnode.com/@devkavin
+[Hashnode-url]: https://hashnode.com/@devkavin
