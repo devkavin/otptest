@@ -265,7 +265,7 @@ Find me on:
 
 [![Twitter][twitter-shield]](Twitter-url)
 [![Hashnode][Hashnode-shield]](https://hashnode.com/@devkavin)
-[![LinkedIn][linkedin-shield]](linkedin-url)
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 </div>
 
