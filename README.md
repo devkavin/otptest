@@ -1,37 +1,5 @@
-<!-- This is a simple tutorial on how to send a Verification mail with phpMyAdmin using PHPMailer.
 
-
-We will:
-
-> Get the Email from the user.
-> Save the Email to a Database.
-> Generate an OTP
-> Save the OTP to the Database
-> Email the OTP to the user
-
-
-Requirements:
-
-> Composer installed
-> Xampp preconfigured
-> php.ini and sendmail.ini configured for SMTP, using port 465.
-
-
-*IMPORTANT*
-
->>>>> Create a file named config.php within the main folder and define your SMTP username and password there.
-
-<?php
-define('SMTP_Username', 'yourSMTPemail@domain.com');
-define('SMTP_Password', 'yourSMTPpassword');
-?>
-
->>>>> Import Composer.
-
-> Type "composer require phpmailer/phpmailer" in the terminal and hit enter.
-> Set the autoloader path to the location of the generated autoload.php in send.php, you can find this file in "*projectpath*/vendor/".  -->
-
-
+<div align="center">
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -39,6 +7,7 @@ define('SMTP_Password', 'yourSMTPpassword');
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+</div>
 
 # Send OTP through SMTP Using PHPMailer
 
@@ -234,11 +203,18 @@ command to run if program contains helper info
 
 # Contact
 
-devkavin - [@devkavinhq](https://twitter.com/devkavinhq)
 
-<!-- [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/devkavinhq.svg?style=social&label=Follow%20%40devkavinhq)](https://twitter.com/devkavinhq) -->
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/devkavinhq?style=social)](https://twitter.com/devkavinhq)
+<div align="center" style="font-size: 20px;">
+
+Find me on:
+<br>
+
+[![Twitter][twitter-shield]](Twitter-url)
+[![Hashnode][Hashnode-shield]](hashnode-url)
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -259,5 +235,9 @@ devkavin - [@devkavinhq](https://twitter.com/devkavinhq)
 [stars-url]: https://github.com/devkavin/otptest/stargazers
 [issues-shield]: https://img.shields.io/github/issues/devkavin/otptest.svg?style=for-the-badge
 [issues-url]: https://github.com/devkavin/otptest/issues
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://www.linkedin.com/in/kavindra-senanayake
+[twitter-shield]: https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white
+[twitter-url]: https://twitter.com/devkavinhq
+[hashnode-shield]: https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode 
+[hasnode-url]: https://hashnode.com/@devkavin
