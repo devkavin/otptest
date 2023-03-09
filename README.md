@@ -214,7 +214,7 @@ Follow these steps to enable 2-factor authentication (<i>2 Step verification</i>
 
 * If you're having issues with composer, check whether the <b>"composer\vendor\bin"</b> path has been added to the <b>Environment PATH variable</b> as shown in the image below:
 
-![Env Path Composer](.\images\readme\composerpath1.png)
+![Env Path Composer](images\readme\composerpath1.png)
 
 <div>
 <img src=".\images\readme\composerpath1.png" width="auto" height="auto" style="border: 1px solid; border-radius: 10px;">
