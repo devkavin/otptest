@@ -65,6 +65,8 @@ composer --version
 
 * If you're not getting the composer version on your terminal, restart your machine.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Setting up SMTP in XAMPP
 
 1. First, locate your XAMPP's <b>php.ini</b> file and open it with a text editor such as notepad++, sublime text or VSCode. 
@@ -102,6 +104,8 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Executing program
 
 ## Fork before testing!
@@ -117,6 +121,8 @@ CREATE TABLE `user` (
 ```
 git clone https://github.com/{your-username}/otptest.git
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Send the OTP
 
@@ -141,6 +147,8 @@ composer require phpmailer/phpmailer
 <img src=".\images\readme\autoloadimport2.png" width="auto" height="auto" style="border: 1px solid; border-radius: 10px;">
 </div>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Create Config
 
   1. Create a new <b>config.php</b>
@@ -158,7 +166,7 @@ define('SMTP_Password', 'yourSMTPpassword');
 
 * If you're having trouble setting up your gmail account to send OTP, Refer to the [Help section](#help).
 
-## Lets send the OTP
+## Lets send the OTP code!
 
 1. Run XAMPP and start the Apache and MySQL servers.
 
@@ -174,6 +182,20 @@ define('SMTP_Password', 'yourSMTPpassword');
 </div>
 
 * This sample code auto generates the OTP and stores it in the database.
+
+5. Verify the OTP
+
+<div>
+<img src=".\images\readme\verifyotp1.png" width="auto" height="auto" style="border: 1px solid; border-radius: 10px;">
+</div>
+
+* If you followed all the steps right, you should see the dashboard page.
+
+<div>
+<img src=".\images\readme\dashboard1.png" width="auto" height="auto" style="border: 1px solid; border-radius: 10px;">
+</div>
+
+
 
 # Help
 
