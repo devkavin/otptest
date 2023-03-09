@@ -205,10 +205,7 @@ Follow these steps to enable 2-factor authentication (<i>2 Step verification</i>
 5. Choose <b>"Mail"</b> as the app and select the device or application that you'll be using to send emails (e.g. <b>"Windows Computer"</b> or <b>"PHPMailer"</b>).
 6. Click on <b>"Generate"</b> to generate a new app password. Copy this password and save it in a secure location.
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Composer help
 
@@ -222,6 +219,11 @@ command to run if program contains helper info
 </div>
 
 * If you're still having issues with composer even after restarting your machine, follow these steps:
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Manual Composer Setup
+
 1. Go to your XAMPP's php folder (\xampp\php)
 
 2. Create a text file in that folder and paste the following code:
