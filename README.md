@@ -38,7 +38,7 @@ If you haven't setup your gmail account to send SMTP mail. refer to the [Help se
 
 3. Once the Setup is complete, you should be able to check the composer version using a Windows Terminal or Command Prompt.
 
-```
+```sh
 composer --version
 ```
 <div>
@@ -78,7 +78,7 @@ composer --version
    
 2. Open the database and navigate the page to the <b>SQL Tab</b> and paste the following mysql script:
 
-```
+```sql
 CREATE TABLE `user` (
   `user_id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
@@ -101,7 +101,7 @@ CREATE TABLE `user` (
 
   4. Open a new window on VSCode and click <b>Clone Git Repository</b> then paste the copied link. Alternately you can open a terminal and use the following git clone command:
 
-```
+```sh
 git clone https://github.com/{your-username}/otptest.git
 ```
 
@@ -113,7 +113,7 @@ git clone https://github.com/{your-username}/otptest.git
 
    1. Open the terminal and run the following command.
 
-```
+```sh
 composer require phpmailer/phpmailer
 ```
    2. Copy the path to the <autoload.php> file in the generated "/vendor" folder.
@@ -138,7 +138,7 @@ composer require phpmailer/phpmailer
   
   2. Copy the following code into it. 
 
-```
+```php
 <?php
 define('SMTP_Username', 'yourSMTPemail@gmail.com');
 define('SMTP_Password', 'yourSMTPpassword');
@@ -228,7 +228,7 @@ Follow these steps to enable 2-factor authentication (<i>2 Step verification</i>
 
 2. Create a text file in that folder and paste the following code:
 
-```
+```php
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
 php composer-setup.php
@@ -250,7 +250,7 @@ ComposerSetup.bat
 7. Click New and add the path to the <b>composer.phar</b> file from the \xampp\php folder.
 
 * Restart your Machine and run the code below to check if it was installed properly:
-```
+```sh
 composer --version
 ```
 
