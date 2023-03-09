@@ -28,13 +28,15 @@ If you haven't setup your gmail account to send SMTP mail. refer to the [Help se
 ## Dependencies
 
 * [Composer](https://getcomposer.org/download/)
-* XAMPP (Preconfigured to open localhost files)
+* [XAMPP](https://www.apachefriends.org/download.html) (Preconfigured to open localhost files)
 
 ## Setting up Composer
 
-* Download the [Composer](https://getcomposer.org/download/) Setup.
-* Run the default setup and make sure to enter the correct path to your php.exe file in the "/xampp/php" folder from directory you've installed xampp to.
-* Once the Setup is complete, you should be able to check the composer version using a Windows Terminal or Command Prompt.
+1. Download the [Composer](https://getcomposer.org/download/) Setup.
+
+2. Run the default setup and make sure to enter the correct path to your php.exe file in the "/xampp/php" folder from directory you've installed xampp to.
+
+3. Once the Setup is complete, you should be able to check the composer version using a Windows Terminal or Command Prompt.
 
 ```
 composer --version
@@ -49,7 +51,8 @@ composer --version
 
 ## Setting up SMTP in XAMPP
 
-1. First, locate your XAMPP's <b>php.ini</b> file and open it with a text editor such as notepad++, sublime text or VSCode. 
+1. First, locate your XAMPP's <b>php.ini</b> file and open it with a text editor such as notepad++, sublime text or VSCode.
+
 2. In your text editor find the mail configuration by searching it using "[mail function]". Then, follow the configuration shown in the image below.
 
 <div>
@@ -206,6 +209,50 @@ Any advise for common problems or issues.
 ```
 command to run if program contains helper info
 ```
+
+## Composer help
+
+### System Requirements:
+> Composer in its latest version requires PHP 7.2.5 to run. A long-term-support version (2.2.x) still offers support for PHP 5.3.2+ in case you are stuck with a legacy PHP version. A few sensitive php settings and compile flags are also required, but when using the installer you will be warned about any incompatibilities.
+
+* If you're having issues with composer, check whether the <b>"composer\vendor\bin"</b> path has been added to the <b>Environment PATH variable</b> as shown in the image below:
+
+<div>
+<img src=".\images\readme\composerpath1.png" width="auto" height="auto" style="border: 1px solid; border-radius: 10px;">
+</div>
+
+* If you're still having issues with composer even after restarting your machine, follow these steps:
+1. Go to your XAMPP's php folder (\xampp\php)
+
+2. Create a text file in that folder and paste the following code:
+
+```
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+```
+3. Click save as, set the file type as "all files" and paste the following as the filename:
+
+```
+ComposerSetup.bat
+```
+4. Save the file and run it.
+
+* This should install <b>composer</b> into your XAMPP's php folder. Next we have to add it to the Environment PATH variable.
+
+5. Search for <b>"Environment variable"</b> (without " ") on the Windows search bar and open <b>System Properties</b>.
+
+6. Click <b>Environment Variables...</b>, under <b>user variables</b> click <b>Path</b> and edit.
+
+7. Click New and add the path to the <b>composer.phar</b> file from the \xampp\php folder.
+
+* Restart your Machine and run the code below to check if it was installed properly:
+```
+composer --version
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Contact
 
