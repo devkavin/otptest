@@ -292,5 +292,5 @@ Find me on:
 [linkedin-url]: https://www.linkedin.com/in/kavindra-senanayake
 [twitter-shield]: https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white
 [twitter-url]: https://twitter.com/devkavinhq
-[hashnode-shield]: https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode 
+[Hashnode-shield]: https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode 
 [hashnode-url]: https://hashnode.com/@devkavin
