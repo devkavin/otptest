@@ -44,7 +44,9 @@ define('SMTP_Password', 'yourSMTPpassword');
 
 ## Description
 
-This is a simple tutorial on how to send a Verification mail with phpMyAdmin using PHPMailer.
+This is a simple tutorial on how to send a Verification mail with phpMyAdmin using PHPMailer through gmail.
+
+If you haven't setup your gmail account to send OTP mail. refer to the [Help section](#help)
 
 # Getting Started
 
@@ -211,8 +213,11 @@ Google has removed the less secure apps option as of May 30th, 2022, and it is n
 Follow these steps to enable 2-factor authentication (<i>2 Step verification</i>) and create an app password:
 
 1. Go to your Google Account settings (https://myaccount.google.com/) and click on <b>"Security"</b> in the left sidebar.
+
 2. Scroll down to <b>"Signing in to Google"</b> and click on <b>"2-Step Verification."</b>
+
 3. Follow the prompts to enable 2-step verification for your Google account. This will require you to enter a code from your phone in addition to your password when signing in to Google.
+
 4. Once 2-step verification is enabled, scroll down to the "App passwords" section and click on <b>"Generate new app password."</b>
 
 <div>
@@ -231,7 +236,9 @@ command to run if program contains helper info
 
 devkavin - [@devkavinhq](https://twitter.com/devkavinhq)
 
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/devkavinhq.svg?style=social&label=Follow%20%40devkavinhq)](https://twitter.com/devkavinhq)
+<!-- [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/devkavinhq.svg?style=social&label=Follow%20%40devkavinhq)](https://twitter.com/devkavinhq) -->
+
+![Twitter Follow](https://img.shields.io/twitter/follow/devkavinhq?style=social)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
