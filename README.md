@@ -263,8 +263,8 @@ composer --version
 Find me on:
 <br>
 
-[![Twitter][twitter-shield]](Twitter-url)
-[![Hashnode][Hashnode-shield]](https://hashnode.com/@devkavin)
+[![Twitter][twitter-shield]][twitter-url]
+[![Hashnode][Hashnode-shield]][Hashnode-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 </div>
