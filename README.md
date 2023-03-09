@@ -267,7 +267,7 @@ Find me on:
 
 [![Twitter][twitter-shield]](Twitter-url)
 [![Hashnode][Hashnode-shield]](hashnode-url)
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]](linkedin-url)
 
 </div>
 
