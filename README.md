@@ -49,7 +49,7 @@ composer --version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Setting up SMTP in XAMPP
+### Setting up SMTP in XAMPP
 
 1. First, locate your XAMPP's <b>php.ini</b> file and open it with a text editor such as notepad++, sublime text or VSCode.
 
@@ -72,7 +72,7 @@ composer --version
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-# Create the Database
+## Create the Database
 
 1. In your browser, browse the XAMPP's PHPMyAdmin [http://localhost/phpmyadmin] and create a new database named otptest.
    
@@ -89,9 +89,9 @@ CREATE TABLE `user` (
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Executing program
+## Executing program
 
-## Fork before testing!
+### Fork before testing!
 
   1. Click on the "Fork" button in the top-right corner of the page.
 
@@ -107,9 +107,9 @@ git clone https://github.com/{your-username}/otptest.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Send the OTP
+### Send the OTP
 
-### Import Composer
+#### Import Composer
 
    1. Open the terminal and run the following command.
 
@@ -132,7 +132,7 @@ composer require phpmailer/phpmailer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Create Config
+### Create Config
 
   1. Create a new <b>config.php</b>
   
@@ -151,7 +151,7 @@ define('SMTP_Password', 'yourSMTPpassword');
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Lets send the OTP code!
+### Lets send the OTP code!
 
 1. Run XAMPP and start the Apache and MySQL servers.
 
@@ -182,9 +182,9 @@ define('SMTP_Password', 'yourSMTPpassword');
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Help
+## Help
 
-## Gmail and SMTP
+### Gmail and SMTP
 
 Google has removed the less secure apps option as of May 30th, 2022, and it is no longer possible to turn it on. To use Google's SMTP server, you have to enable 2-factor authentication and create an app password to use instead of your true password in the code.
 
@@ -207,9 +207,9 @@ Follow these steps to enable 2-factor authentication (<i>2 Step verification</i>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Composer help
+### Composer help
 
-### System Requirements:
+#### System Requirements:
 > Composer in its latest version requires PHP 7.2.5 to run. A long-term-support version (2.2.x) still offers support for PHP 5.3.2+ in case you are stuck with a legacy PHP version. A few sensitive php settings and compile flags are also required, but when using the installer you will be warned about any incompatibilities.
 
 * If you're having issues with composer, check whether the <b>"composer\vendor\bin"</b> path has been added to the <b>Environment PATH variable</b> as shown in the image below:
@@ -223,7 +223,7 @@ Follow these steps to enable 2-factor authentication (<i>2 Step verification</i>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Manual Composer Setup
+#### Manual Composer Setup
 
 1. Go to your XAMPP's php folder (\xampp\php)
 
@@ -257,7 +257,7 @@ composer --version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Contact
+## Contact
 
 <div align="center" style="font-size: 20px;">
 
@@ -272,7 +272,7 @@ Find me on:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Version History
+## Version History
 
 * 0.1
     * Initial Release
