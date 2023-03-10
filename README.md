@@ -17,20 +17,20 @@
 
 </div>
 
-## Description
+### Description
 
 This is a simple tutorial on how to send a Verification mail with phpMyAdmin using PHPMailer through gmail.
 
 If you haven't setup your gmail account to send SMTP mail. refer to the [Help section](#help)
 
-# Getting Started
+## Getting Started
 
-## Dependencies
+### Dependencies
 
 * [Composer](https://getcomposer.org/download/)
 * [XAMPP](https://www.apachefriends.org/download.html) (Preconfigured to open localhost files)
 
-## Setting up Composer
+### Setting up Composer
 
 1. Download the [Composer](https://getcomposer.org/download/) Setup.
 
