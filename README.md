@@ -13,7 +13,7 @@
 
 <div align="center">
 
-# Send OTP through SMTP Using PHPMailer
+# Send Verification codes through Gmail.
 
 </div>
 
